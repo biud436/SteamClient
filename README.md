@@ -6,7 +6,10 @@ But a default RPG Maker VX Ace is used the Windows GDI, so it doesn't have a har
 
 To implemention it properly, you need to replace your main executable binary as <a href="https://forums.rpgmakerweb.com/index.php?threads/rgd-directx-implementation-of-rgss3.95228/">[RGD] DirectX implementation of RGSS3</a>
 
-Before using this dll, you need to change a file called ```pch.cpp``` and compile it.
+Before using this dll, you need to change a file called ```pch.cpp``` and compile it. 
+
+To compile these source files, you need to change ```Steam SDK```'s Include and Library folders.
+(requires Steam SDK in your system)
 
 ```c++
 void InitWithSteamAPI() 
