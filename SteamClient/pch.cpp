@@ -30,8 +30,8 @@ extern "C" {
 
 void InitWithSteamAPI() 
 {
-	// 1334420 k_uAppIdInvalid
-	if (SteamAPI_RestartAppIfNecessary(1334420))
+	// k_uAppIdInvalid must change as your own app id
+	if (SteamAPI_RestartAppIfNecessary(k_uAppIdInvalid))
 	{
 		return;
 	}
