@@ -31,6 +31,8 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="README.md" />
+    <None Include="..\README.md">
+      <Filter>헤더 파일</Filter>
+    </None>
   </ItemGroup>
 </Project>

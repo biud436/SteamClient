@@ -23,4 +23,4 @@ void InitWithSteamAPI()
 
 ```
 
-after compile it, you have to download a new binary for binding steam at <a href="https://github.com/biud436/SteamBind">SteamBind</a>
+after compiling it, you have to download a new binary for binding steam at <a href="https://github.com/biud436/SteamBind">SteamBind</a>
